@@ -1,3 +1,12 @@
+--Write a query to insert a new employee into the Employees table with all column values.
+--Insert a new customer by specifying only CustomerID, CustomerName, and Country.
+--Insert multiple products into the Products table in a single query.
+--Write an INSERT query where the salary column is left NULL.
+--Insert records from one table into another using INSERT INTO … SELECT.
+
+
+
+
 USE SalesDB
 INSERT INTO Sales.Employees
 VALUES 
@@ -29,4 +38,5 @@ first_name,
 NULL,
 'UNKNOWN'
 FROM .Customers
+
 
