@@ -1,0 +1,16 @@
+USE SalesDB
+SELECT *
+FROM Sales.Products
+WHERE Price BETWEEN 100 AND 300
+
+
+USE SalesDB
+SELECT *
+FROM Sales.Employees
+WHERE Salary BETWEEN 50000 AND 80000
+
+
+USE SalesDB
+SELECT *
+FROM Sales.Orders
+WHERE Sales BETWEEN 200 AND 1000
